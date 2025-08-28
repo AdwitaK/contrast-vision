@@ -12,14 +12,24 @@ Figure 1: An outdoors image processed using contrastVision
 - Real-time video processing using **OpenCV**
 - Pixel-level color classification with **NumPy**
 - Eight-color contrasted output for better visibility
-- Lightweight and runs on a standard webcam
+- Lightweight frame processing for minimal latency
 
 ## Setup
-Install dependencies with:
+
+Follow the steps below to get started:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/AdwitaK/contrast-vision.git
+cd contrast-vision
+```
+
+2.  Install dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
-Run program with:
+
+3. Run program with:
 ```
 python contrastVision.py
 ```
